@@ -22,10 +22,10 @@ const handleButtonClick = (button: Element): void => {
     const value = button.textContent!;
 
     switch (value) {
-        case 'DEL':
+        case 'del':
             clearDisplay();
             break;
-        case 'CE':
+        case 'ce':
             deleteLastCharacter();
             break;
         case '=':
